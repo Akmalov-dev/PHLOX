@@ -48,3 +48,59 @@
     width: 800px;
     margin-left: 20px;
 }
+.earphone{
+    display: flex;
+    background-color: rgb(39, 39, 39);
+    height: 320px;
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 130px;
+}
+.img-earphone{
+    width: 250px;
+    position: absolute;
+    left: 210px;
+    margin-top: 5px;
+}
+.products{
+    margin-top: 20px;
+}
+.font-header{
+    margin-left: 15px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.f-enjoy{
+    color: white;
+    font-family: sans-serif;
+}
+.f-with{
+    color: white;
+    font-size: 30px;
+    margin-top: 0;
+    font-weight: bold;
+}
+.f-earphone{
+    margin-top: 0;
+    color: rgb(102, 102, 102);
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+.btn-browse{
+    height: 35px;
+    background-color: red;
+    color: white;
+    border-style: none;
+    border-radius: 40px;
+    width: 130px;
+    margin-top: -35px;
+}
+.btn-browse:hover{
+    background-color: white;
+    color: red;
+}
+.btn-browse:active{
+    opacity: 70%;
+}

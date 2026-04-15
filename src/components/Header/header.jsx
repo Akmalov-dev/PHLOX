@@ -19,7 +19,7 @@ const header = () => {
             <input className='search' type="search" placeholder='search' />
             <button className='btn-login'>Login</button>
           </div>
-       </div>
+       </div> 
     </>
   )
 }
