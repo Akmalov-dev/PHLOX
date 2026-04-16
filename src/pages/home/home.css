@@ -62,12 +62,45 @@
     left: 210px;
     margin-top: 5px;
 }
+.img-watch{
+    width: 260px;
+    position: absolute;
+    left: 530px;
+    margin-top: 15px;
+}
+.img-laptop{
+    width: 320px;
+}
+.img-oculus{
+    position: absolute;
+    width: 220px;
+    left: 800px;
+}
+.img-speaker{
+    position: absolute;
+    width: 280px;
+    left: 1090px;
+    
+}
 .products{
     margin-top: 20px;
+    display: flex;
 }
 .font-header{
     margin-left: 15px;
     margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.font-header-oculus{
+    margin-left: 15px;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+}
+.font-header-speaker{
+    margin-left: 15px;
+    margin-top: 110px;
     display: flex;
     flex-direction: column;
 }
@@ -88,6 +121,13 @@
     font-weight: bold;
     margin-top: -20px;
 }
+.f-glasses{
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.545);
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: -20px;
+}
 .btn-browse{
     height: 35px;
     background-color: red;
@@ -97,10 +137,140 @@
     width: 130px;
     margin-top: -35px;
 }
+.btn-browse1{
+    height: 35px;
+    background-color: white;
+    color: rgb(255, 221, 0);
+    border-style: none;
+    border-radius: 40px;
+    width: 130px;
+    margin-top: -35px;
+}
+.btn-browse2{
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    color: red;
+    border-style: none;
+    border-radius: 40px;
+    width: 130px;
+    margin-top: -35px;
+}
+.btn-browse3{
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    border-style: none;
+    border-radius: 40px;
+    width: 130px;
+    margin-top: -35px;
+}
+.btn-browse4{
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(17, 201, 4);
+    border-style: none;
+    border-radius: 40px;
+    width: 130px;
+    margin-top: -35px;
+}
+.btn-browse5{
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    color: purple;
+    border-style: none;
+    border-radius: 40px;
+    width: 130px;
+    margin-top: -35px;
+}
+
+.btn-browse3:hover{
+    background-color: blue;
+    color: white;
+}
+.btn-browse3:active{
+    opacity: 70%z;
+}
+.btn-browse2:hover{
+    background-color: red;
+    color: white;
+}
+.btn-browse2:active{
+    opacity: 70%;
+}
+.btn-browse1:active{
+    opacity: 70%;
+}
 .btn-browse:hover{
     background-color: white;
     color: red;
 }
+.btn-browse1:hover{
+    background-color: rgb(255, 221, 0);
+    color: white;
+}
 .btn-browse:active{
     opacity: 70%;
+}
+.btn-browse3:active{
+    opacity: 70%;
+}
+.btn-browse4:hover{
+   background-color: green;
+   color: white;
+}
+.btn-browse4:active{
+    opacity: 70%;
+}
+.btn-browse5:hover{
+    background-color: purple;
+    color: white;
+}
+.btn-browse5:active{
+    opacity: 70%;
+}
+.watch{
+    display: flex;
+    background-color: rgb(226, 196, 0);
+    height: 320px;
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.laptop{
+    display: flex;
+     background-color: rgb(255, 0, 0);
+     width: 560px;
+     margin-left: 20px;
+     border-radius: 15px;
+}
+.console{
+     display: flex;
+     background-color: blue;
+     width: 560px;
+     margin-left: 20px;
+     border-radius: 15px;
+     margin-left: 130px;
+}
+.laptop-fonts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    gap: 10px;
+    margin-top: 60px;
+}
+.vr{
+    display: flex;
+    background-color: rgb(17, 201, 4);
+    height: 320px;
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.speaker{
+    display: flex;
+    background-color: purple;
+    height: 320px;
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 20px;
 }
