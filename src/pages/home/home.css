@@ -274,3 +274,34 @@
     border-radius: 15px;
     margin-left: 20px;
 }
+.add{
+    display: flex;
+    margin-left: 155px;
+    gap: 80px;
+    margin-top: 50px;
+}
+.img-shipping{
+    width: 100px;
+}
+.shipping{
+    display: flex;
+}
+.shipping-fonts{
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+}
+.f-shipping{
+    font-weight: bold;
+    margin-bottom: 0;
+    color: red;
+}
+.f-shipping2{
+    margin-top: 0;
+    color: black;
+}
+.img-wallet{
+    width: 60px;
+    margin-top: 17px;
+    margin-right: 5px;
+}

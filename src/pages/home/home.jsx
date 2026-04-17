@@ -7,6 +7,10 @@ import Laptop from '../home/images/bac.png'
 import Console from '../home/images/console.png'
 import Oculus from '../home/images/oculus.png'
 import Speaker from '../home/images/speaker.png'
+import Shipping from '../home/images/shipping.jpg'
+import Warranty from '../home/images/warranty.avif'
+import Support from '../home/images/support.png'
+import Wallet from '../home/images/wallet.png'
 
 const home = () => {
   return (
@@ -100,6 +104,52 @@ const home = () => {
              </div>
           </div>
        </div>
+
+      {/* ending products */}
+
+      <div className='add'>
+        <div className='shipping'>
+          <div>
+            <img className='img-shipping' src={Shipping} alt="" />
+          </div>
+          <div className='shipping-fonts'>
+            <p className='f-shipping'>Free Shipping</p>
+            <p className='f-shipping2'>Free shipping in all order</p>
+          </div>
+        </div>
+
+        <div className='shipping'>
+          <div>
+            <img className='img-shipping' src={Warranty} alt="" />
+          </div>
+          <div className='shipping-fonts'>
+            <p className='f-shipping'>Money Guarantee</p>
+            <p className='f-shipping2'>30 day money back</p>
+          </div>
+        </div>
+
+            <div className='shipping'>
+          <div>
+            <img className='img-shipping' src={Support} alt="" />
+          </div>
+          <div className='shipping-fonts'>
+            <p className='f-shipping'>Online Support 24/7</p>
+            <p className='f-shipping2'>Technical support</p>
+          </div>
+        </div>
+
+          <div className='shipping'>
+          <div>
+            <img className='img-wallet' src={Wallet} alt="" />
+          </div>
+          <div className='shipping-fonts'>
+            <p className='f-shipping'>Secure Payment</p>
+            <p className='f-shipping2'>All cards Accepted</p>
+          </div>
+        </div>
+      </div>
+
+         
     </>
   )
 }
