@@ -305,3 +305,97 @@
     margin-top: 17px;
     margin-right: 5px;
 }
+
+
+
+/* middle part */
+
+.middle-part{
+    display: flex;
+    justify-content: space-around;
+    background-color: red;
+    height: 350px;
+    width: 1200px;
+    margin-left: 130px;
+    margin-top: 150px;
+    border-radius: 30px;
+}
+.left-fonts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.img-head{
+    width: 400px;
+    margin-top: -100px;
+    position: absolute;
+    left: 420px;
+}
+.f-off{
+    font-size: 20px;
+    font-weight: lighter;
+    color: white;
+}
+.f-fine{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.f-smile{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+}
+.f-nov{
+    color: white;
+    margin-left: 10px;
+    margin-top: 0;
+}
+.f-air{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.f-summer{
+    color: white;
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.f-company{
+    color: white;
+    font-size: 20px;
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+
+/* best seller products */
+
+.f-bestseller{
+    color: black;
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.f-passages{
+    color: grey;
+    font-size: 25px;
+    margin-top: 0;
+    margin-left: 70px;
+}
+.font-best-seller{
+    display: flex;
+    flex-direction: column;
+    margin-left: 440px;
+    margin-top: 60px;
+}

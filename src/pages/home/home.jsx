@@ -11,6 +11,7 @@ import Shipping from '../home/images/shipping.jpg'
 import Warranty from '../home/images/warranty.avif'
 import Support from '../home/images/support.png'
 import Wallet from '../home/images/wallet.png'
+import HD from '../home/images/headphonemid.png'
 
 const home = () => {
   return (
@@ -148,8 +149,34 @@ const home = () => {
           </div>
         </div>
       </div>
+       
+       {/* next part */}
+
+       <div className='middle-part'>
+        <div className='left-fonts'>
+          <p className='f-off'>20 % OFF</p>
+          <p className='f-fine'>FINE</p>
+          <p className='f-smile'>SMILE</p>
+          <p className='f-nov'>15 Nov to 7 Dec</p>
+        </div>
+        <div>
+          <img className='img-head' src={HD} alt="" />
+        </div>
+        <div className='right-fonts'>
+          <p className='f-air'>Beats Solo Air</p>
+          <p className='f-summer'>Summer Sale</p>
+          <p className='f-company'>Company that's grown from 270 to 480 employees in the last 12 months</p>
+          <button className='btn-browse2'>Shop</button>
+        </div>
+       </div>
+
+
+       <div className='font-best-seller'>
+        <p className='f-bestseller'>Best Seller Products</p>
+       <p className='f-passages'>speaker There are many variations passages</p>
+       </div>
     </>
   )
 }
 
-export default home
+export default home 
