@@ -313,7 +313,7 @@
 .middle-part{
     display: flex;
     justify-content: space-around;
-    background-color: red;
+    background-color: rgb(182, 2, 2);
     height: 350px;
     width: 1200px;
     margin-left: 130px;
