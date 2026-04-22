@@ -399,3 +399,87 @@
     margin-left: 440px;
     margin-top: 60px;
 }
+.bs1{
+    width: 200px;
+    background-color: rgb(199, 199, 199);
+    border-radius: 10px;
+}
+.f-beat{
+    color: rgb(96, 96, 96);
+    font-size: 20px;
+}
+.price{
+    font-weight: bold;
+    font-size: large;
+}
+.best-seller-products{
+    display: flex;
+    margin-left: 130px;
+    justify-content: space-around;
+    margin-right: 100px;
+}
+.middle-part1{
+     display: flex;
+    justify-content: space-around;
+    background-color: darkblue;
+    height: 350px;
+    width: 1200px;
+    margin-left: 130px;
+    margin-top: 150px;
+    border-radius: 30px;
+}
+.img-watch1{
+    width: 450px;
+    margin-top: -100px;
+    position: absolute;
+    left: 440px;
+}
+.f-bestseller1{
+    color: black;
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 55px;
+}
+.gadgets{
+  width: 400px;
+  border-radius: 10px;
+}
+.f-date{
+    color: grey;
+    font-size: 20px;
+}
+.f-gadgets{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+.f-when{
+    color: grey;
+    font-size: 20px;
+    width: 400px;
+}
+.recent-news{
+    display: flex;
+    margin-left: 120px;
+    gap: 20px;
+}
+
+.blue{
+    background-color: rgb(72, 72, 72);
+    height: 200px;
+    margin-top: 100px;
+}
+
+/* footer page */
+
+.footer{
+   display: flex;
+}
+
+.f-lorem{
+    color: grey;
+    width: 230px;
+    margin-left: 50px;
+}

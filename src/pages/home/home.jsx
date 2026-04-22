@@ -12,6 +12,9 @@ import Warranty from '../home/images/warranty.avif'
 import Support from '../home/images/support.png'
 import Wallet from '../home/images/wallet.png'
 import HD from '../home/images/headphonemid.png'
+import Bestseller1 from '../home/images/best seller 1.png'
+import Watch1 from '../home/images/watchfooter.png'
+import Gadget from '../home/images/gadgets.webp'
 
 const home = () => {
   return (
@@ -174,6 +177,114 @@ const home = () => {
        <div className='font-best-seller'>
         <p className='f-bestseller'>Best Seller Products</p>
        <p className='f-passages'>speaker There are many variations passages</p>
+       </div>
+
+
+       <div className='best-seller-products'>
+        <div>
+          <img className='bs1' src={Bestseller1} alt="" />
+          <p className='f-beat'>Beats</p>
+          <p className='price'>$995</p>
+        </div>
+             <div>
+          <img className='bs1' src={Bestseller1} alt="" />
+          <p className='f-beat'>Beats</p>
+          <p className='price'>$995</p>
+        </div>
+             <div>
+          <img className='bs1' src={Bestseller1} alt="" />
+          <p className='f-beat'>Beats</p>
+          <p className='price'>$995</p>
+        </div>
+             <div>
+          <img className='bs1' src={Bestseller1} alt="" />
+          <p className='f-beat'>Beats</p>
+          <p className='price'>$995</p>
+        </div>
+       </div>
+
+           <div className='best-seller-products'>
+        <div>
+          <img className='bs1' src={Bestseller1} alt="" />
+          <p className='f-beat'>Beats</p>
+          <p className='price'>$995</p>
+        </div>
+             <div>
+          <img className='bs1' src={Bestseller1} alt="" />
+          <p className='f-beat'>Beats</p>
+          <p className='price'>$995</p>
+        </div>
+             <div>
+          <img className='bs1' src={Bestseller1} alt="" />
+          <p className='f-beat'>Beats</p>
+          <p className='price'>$995</p>
+        </div>
+             <div>
+          <img className='bs1' src={Bestseller1} alt="" />
+          <p className='f-beat'>Beats</p>
+          <p className='price'>$995</p>
+        </div>
+       </div>
+
+      {/* before footer part */}
+
+
+       <div className='middle-part1'>
+        <div className='left-fonts'>
+          <p className='f-off'>20 % OFF</p>
+          <p className='f-fine'>HAPPY</p>
+          <p className='f-smile'>HOURS</p>
+          <p className='f-nov'>15 Nov to 7 Dec</p>
+        </div>
+        <div>
+          <img className='img-watch1' src={Watch1} alt="" />
+        </div>
+        <div className='right-fonts'>
+          <p className='f-air'>Beats Solo Air</p>
+          <p className='f-summer'>Summer Sale</p>
+          <p className='f-company'>Company that's grown from 270 to 480 employees in the last 12 months</p>
+          <button className='btn-browse3'>Shop</button>
+        </div>
+       </div>
+
+
+       <div className='font-best-seller'>
+        <p className='f-bestseller1'>Recent News</p>
+       <p className='f-passages'>There are many variations passages</p>
+       </div>
+       
+       <div className='recent-news'>
+          <div className='first-new'>
+            <img className='gadgets' src={Gadget} alt="" />
+            <p className='f-date'>October 5, 2019 by Paul</p>
+            <p className='f-gadgets'>How to choose perfect gadgets</p>
+            <p className='f-when'>when while the lovely valley teems with vapour around me and the meridian sun strikers the upper s ...</p>
+          </div>
+
+             <div className='first-new'>
+            <img className='gadgets' src={Gadget} alt="" />
+            <p className='f-date'>October 5, 2019 by Paul</p>
+            <p className='f-gadgets'>How to choose perfect gadgets</p>
+            <p className='f-when'>when while the lovely valley teems with vapour around me and the meridian sun strikers the upper s ...</p>
+          </div>
+
+             <div className='first-new'>
+            <img className='gadgets' src={Gadget} alt="" />
+            <p className='f-date'>October 5, 2019 by Paul</p>
+            <p className='f-gadgets'>How to choose perfect gadgets</p>
+            <p className='f-when'>when while the lovely valley teems with vapour around me and the meridian sun strikers the upper s ...</p>
+          </div>
+       </div>
+
+       <div className='blue'></div>
+
+       {/* footer finally */}
+
+       <div className='footer'>
+            <div className='left-side-footer'>
+              <p className='logo'>PHLOX</p>
+              <p className='f-lorem'>There are many variations passages of lorem ipsum available. but the majority have</p>
+            </div>
        </div>
     </>
   )
