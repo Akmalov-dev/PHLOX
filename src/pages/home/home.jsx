@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import '../home/home.css'
 import Headphone from '../home/images/headphone.png'
 import Earphone from '../home/images/earphone.png'
@@ -15,6 +16,7 @@ import HD from '../home/images/headphonemid.png'
 import Bestseller1 from '../home/images/best seller 1.png'
 import Watch1 from '../home/images/watchfooter.png'
 import Gadget from '../home/images/gadgets.webp'
+
 
 const home = () => {
   return (
@@ -284,6 +286,28 @@ const home = () => {
             <div className='left-side-footer'>
               <p className='logo'>PHLOX</p>
               <p className='f-lorem'>There are many variations passages of lorem ipsum available. but the majority have</p>
+            </div>
+            <div className='footer-middle'>
+              <p className='f-quick'>Quick Links</p>
+              <div className='footer-links'>
+              <Link>Home</Link>
+              <Link>About</Link>
+              <Link>Shop</Link>
+              <Link>Contact</Link>
+              </div>
+            </div>
+             <div className='footer-middle'>
+              <p className='f-quick'>Contact</p>
+              <div className='footer-links'>
+              <Link>+99 (0) 101 00000 Patrick</Link>
+              <Link>Tashkent city 16-mavze</Link>
+              <Link>Turkestan Underground</Link>
+              </div>
+            </div>
+            <div>
+                <p className='f-quick'>Subscribe to Our Email</p>
+                <p className='f-latest'>For Latest News & Updates</p>
+                
             </div>
        </div>
     </>

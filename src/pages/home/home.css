@@ -476,10 +476,28 @@
 
 .footer{
    display: flex;
+   justify-content: space-around;
 }
 
 .f-lorem{
     color: grey;
     width: 230px;
     margin-left: 50px;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-middle{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.f-quick{
+    font-weight: bold;
+}
+.f-latest{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0;
 }
