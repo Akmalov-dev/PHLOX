@@ -307,7 +307,7 @@ const home = () => {
             <div>
                 <p className='f-quick'>Subscribe to Our Email</p>
                 <p className='f-latest'>For Latest News & Updates</p>
-                <div>
+                <div className='footer-inputs'>
                   <input className='footer-input' type="text" placeholder='     Enter Your Email' />
                   <button className='btn-sub'>Subscribe</button>
                 </div>

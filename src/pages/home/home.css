@@ -524,3 +524,6 @@
 .btn-sub:active{
     opacity: 50%;
 }
+.footer-inputs{
+    margin-top: 0;
+}
